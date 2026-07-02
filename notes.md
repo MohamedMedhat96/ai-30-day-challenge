@@ -6,4 +6,6 @@
 
 **Day 3:**:  Learned about the four elements that I should use to ensure a better quality output from the AI 1. Explicit instructions 2. Provide example of input and output 3. Use delimiters (xml tags) to differentiate between system requirements and examples and input 4. let it reason by asking it to think step by step 
 
-**Day 4**: Ensure that the format is strictly specified in the prompt and always validate that the format is correct. For example ask for explicit json without markdown 
+**Day 4**: Ensure that the format is strictly specified in the prompt and always validate that the format is correct. For example ask for explicit json without markdown
+**Day 5**: Streaming the claude response and token account.
+**Day 6**: How to save tokens and improve performance? 1. Context management compact history, rules and avoid writing long system prompts so the agent wouldn't lose the context in the middle. 2. Caching system prompts and reusable rules to utilize cache_read_input_tokens which are cheaper than regular input token. Haiku requires a large context window to be cached (5000)
